@@ -17,7 +17,9 @@
 
 <body>
     <h1>hello</h1>
-    @dump($movies)
+    @foreach($movies as $movie)
+        <p>{{$movie}}</p>
+    @endforeach
 </body>
 
 </html>
