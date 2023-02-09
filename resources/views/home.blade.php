@@ -17,7 +17,7 @@
 
 <body>
     <h1>hello</h1>
-
+    @dump($movies)
 </body>
 
 </html>
